@@ -1,5 +1,9 @@
 # NX WiFi Region Changer
 
+<p align="center" width="100%">
+    <img width="450px" src="https://github.com/sthetix/NX-Wifi-Region-Changer/blob/main/app.png" alt="NX WiFi Region Changer GUI">
+</p>
+
 NX WiFi Region Changer is a simple tool for updating the Wi-Fi region in your Nintendo Switch PRODINFO file while ensuring data integrity.
 
 ## Features
