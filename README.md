@@ -1,4 +1,4 @@
-# NX WiFi Region Changer v1.0.0
+# NX WiFi Region Changer
 
 NX WiFi Region Changer is a simple tool for updating the Wi-Fi region in your NX PRODINFO file while ensuring data integrity.
 
@@ -23,7 +23,7 @@ NX WiFi Region Changer is a simple tool for updating the Wi-Fi region in your NX
 ## Installation
 
 ### Windows (EXE)
-1. Download and run `NX WiFi Region Changer exe file`.
+Just run the NX WiFi Region Changer executable.
 
 ### macOS/Linux (Python)
 1. Download the script.
@@ -39,7 +39,7 @@ NX WiFi Region Changer is a simple tool for updating the Wi-Fi region in your NX
 ## Usage
 
 1. Open the app.
-2. Select a PRODINFO file.
+2. Select a decrypted PRODINFO file.
 3. Choose a new region.
 4. Click **Update Region**.
 5. A backup is created automatically.
@@ -56,5 +56,7 @@ This project is under the [MIT License](LICENSE).
 
 ## Credits
 
-Developed by **[Your Name/Organization]**. Special thanks to [ttkbootstrap](https://github.com/israel-dryer/ttkbootstrap).
+Developed by **sthetix**. Special thanks to [ttkbootstrap](https://github.com/israel-dryer/ttkbootstrap).
+
+This project is based on the written guide from [r/SwitchPirates](https://www.reddit.com/r/SwitchPirates/comments/1avooiv/guide_changing_wifi_regions_on_any_switch_console/).
 
