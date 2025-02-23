@@ -23,7 +23,7 @@ NX WiFi Region Changer is a simple tool for updating the Wi-Fi region in your NX
 ## Installation
 
 ### Windows (EXE)
-1. Download and run `NX WiFi Region Changer v1.0.0.exe`.
+1. Download and run `NX WiFi Region Changer exe file`.
 
 ### macOS/Linux (Python)
 1. Download the script.
