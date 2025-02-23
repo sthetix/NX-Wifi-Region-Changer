@@ -11,6 +11,7 @@ NX WiFi Region Changer is a simple tool for updating the Wi-Fi region in your Ni
 - **Easy to Use:** Graphical interface with simple controls.
 - **Cross-Platform:** Works on Windows (EXE) and macOS/Linux (Python script).
 - **File Validation:** Ensures the file format is correct.
+- **Automatically recalculate and update CRC-16 and SHA-256 checksums to maintain file integrity.
 - **Region Update:** Supports Americas, Asia, Australia, Europe, Japan, and Malaysia.
 - **Automatic Backup:** Creates a `.bak` file before making changes.
 - **Error Handling:** Displays clear messages for issues.
