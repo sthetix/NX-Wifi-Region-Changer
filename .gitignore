@@ -1,0 +1,7 @@
+# Ignore specific folders
+archive/
+releases/
+script/
+
+# Optionally, ignore the new files you saw in your last status
+*.exe
