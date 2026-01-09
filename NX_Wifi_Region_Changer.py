@@ -189,7 +189,7 @@ def save_log():
             log_content = log_widget.get("1.0", "end")
             
             with open(file_path, 'w', encoding='utf-8') as f:
-                f.write(f"NX WiFi Region Changer v1.1.0 - Log Export\n")
+                f.write(f"NX WiFi Region Changer v1.0.2 - Log Export\n")
                 f.write(f"Generated: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
                 f.write("="*50 + "\n\n")
                 f.write(log_content)
@@ -372,7 +372,7 @@ else:
     WINDOW_WIDTH, WINDOW_HEIGHT = 650, 550
 
 root.geometry(f"{WINDOW_WIDTH}x{WINDOW_HEIGHT}")
-root.title("NX WiFi Region Changer v1.1.0")
+root.title("NX WiFi Region Changer v1.0.2")
 root.resizable(True, True)
 
 # Set the window icon
