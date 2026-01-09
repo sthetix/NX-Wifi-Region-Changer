@@ -1,7 +1,33 @@
-# Ignore specific folders
+# Build artifacts
+*.exe
+*.spec
+build/
+dist/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
 archive/
 releases/
 script/
-
-# Optionally, ignore the new files you saw in your last status
-*.exe

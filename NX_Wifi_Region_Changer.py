@@ -267,7 +267,14 @@ def open_prodinfo():
         log_message("⚠ WARNING: File is read-only. Please check permissions.")
         return
 
-    shutil.copy(prodinfo_file_path, prodinfo_file_path + ".bak")
+    # Only create backup if .bak doesn't already exist (preserves original backup)
+    backup_path = prodinfo_file_path + ".bak"
+    if not os.path.exists(backup_path):
+        shutil.copy(prodinfo_file_path, backup_path)
+        log_message(f"✓ Backup created: {os.path.basename(backup_path)}")
+    else:
+        log_message(f"⚠ Backup already exists, preserving original: {os.path.basename(backup_path)}")
+
     region_changed = False
 
     with open(prodinfo_file_path, "rb") as file:
@@ -282,7 +289,6 @@ def open_prodinfo():
     
     clear_log()
     log_message(f"✓ PRODINFO file loaded: {os.path.basename(prodinfo_file_path)}")
-    log_message(f"✓ Backup created: {os.path.basename(prodinfo_file_path)}.bak")
     log_message(f"Current WiFi Region: {current_region.get()}")
 
 def update_wifi_region():
