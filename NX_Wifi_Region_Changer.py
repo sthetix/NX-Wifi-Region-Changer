@@ -27,18 +27,6 @@ def resource_path(relative_path):
         base_path = SCRIPT_DIR
     return os.path.join(base_path, relative_path)
 
-def check_icon_files():
-    """Check if wifi.ico and wifi.png exist."""
-    wifi_ico_path = resource_path("wifi.ico")
-    wifi_png_path = resource_path("wifi.png")
-    if not os.path.exists(wifi_ico_path):
-        messagebox.showerror("Error", f"wifi.ico not found in {wifi_ico_path}.")
-        sys.exit(1)
-    if not os.path.exists(wifi_png_path):
-        messagebox.showerror("Error", f"wifi.png not found in {wifi_png_path}.")
-        sys.exit(1)
-
-check_icon_files()
 
 # Constants
 VALID_FILENAMES = {"prodinfo.bin", "prodinfo", "PRODINFO", "PRODINFO.bin"}
